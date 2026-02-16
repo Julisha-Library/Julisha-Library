@@ -42,8 +42,11 @@
     <!-- Featured Papers Section -->
     <section class="featured-section" id="featured">
         <div class="container">
-            <h2>⭐ Featured Papers</h2>
-            <div class="papers-grid" id="featuredGrid">
+            <button class="section-toggle" onclick="toggleSection('featuredContent')">
+                <span>⭐ Featured Papers</span>
+                <span class="toggle-icon">▼</span>
+            </button>
+            <div class="papers-grid" id="featuredContent">
                 <!-- Featured papers will be loaded here -->
             </div>
         </div>
@@ -52,8 +55,11 @@
     <!-- Trending Section -->
     <section class="trending-section">
         <div class="container">
-            <h2>🔥 Trending This Week</h2>
-            <div class="papers-grid" id="trendingGrid">
+            <button class="section-toggle" onclick="toggleSection('trendingContent')">
+                <span>🔥 Trending This Week</span>
+                <span class="toggle-icon">▼</span>
+            </button>
+            <div class="papers-grid" id="trendingContent">
                 <!-- Trending papers will be loaded here -->
             </div>
         </div>
@@ -258,8 +264,11 @@
     <!-- Subjects Section -->
     <section class="subjects-section" id="subjects">
         <div class="container">
-            <h2>Browse by Subject</h2>
-            <div class="subjects-grid">
+            <button class="section-toggle" onclick="toggleSection('subjectsContent')">
+                <span>Browse by Subject</span>
+                <span class="toggle-icon">▼</span>
+            </button>
+            <div class="subjects-grid" id="subjectsContent">
                 <div class="subject-card" onclick="filterBySubject('Mathematics')">
                     <h3>📐 Mathematics</h3>
                     <p>Algebra, Geometry, Calculus & more</p>
@@ -291,9 +300,13 @@
     <!-- About Section -->
     <section class="about-section" id="about">
         <div class="container">
-            <h2>About Julisha Library</h2>
-            <p>Julisha Library is a free, open-source platform dedicated to providing high-quality revision papers and study materials to students worldwide. Our mission is to make quality education resources accessible to everyone, regardless of their economic background.</p>
-            <div class="features">
+            <button class="section-toggle" onclick="toggleSection('aboutContent')">
+                <span>About Julisha Library</span>
+                <span class="toggle-icon">▼</span>
+            </button>
+            <div id="aboutContent">
+                <p>Julisha Library is a free, open-source platform dedicated to providing high-quality revision papers and study materials to students worldwide. Our mission is to make quality education resources accessible to everyone, regardless of their economic background.</p>
+                <div class="features">
                 <div class="feature">
                     <h3>100% Free</h3>
                     <p>All materials are completely free to access and download</p>
@@ -307,47 +320,57 @@
                     <p>New materials added regularly</p>
                 </div>
             </div>
+            </div>
         </div>
     </section>
 
     <!-- Contact Section -->
     <section class="contact-section">
         <div class="container">
-            <h2>Contact & Support</h2>
-            <form id="contactForm" class="contact-form">
-                <div class="form-group">
-                    <label for="contactName">Name *</label>
-                    <input type="text" id="contactName" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="contactEmail">Email *</label>
-                    <input type="email" id="contactEmail" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="contactSubject">Subject *</label>
-                    <select id="contactSubject" name="subject" required>
-                        <option value="">Select a subject</option>
-                        <option value="bug">Report a Bug</option>
-                        <option value="feature">Feature Request</option>
-                        <option value="contribute">Want to Contribute</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="contactMessage">Message *</label>
-                    <textarea id="contactMessage" name="message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="btn-primary">Send Message</button>
-            </form>
+            <button class="section-toggle" onclick="toggleSection('contactContent')">
+                <span>Contact & Support</span>
+                <span class="toggle-icon">▼</span>
+            </button>
+            <div id="contactContent">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="contactName">Name *</label>
+                        <input type="text" id="contactName" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactEmail">Email *</label>
+                        <input type="email" id="contactEmail" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactSubject">Subject *</label>
+                        <select id="contactSubject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="bug">Report a Bug</option>
+                            <option value="feature">Feature Request</option>
+                            <option value="contribute">Want to Contribute</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactMessage">Message *</label>
+                        <textarea id="contactMessage" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
         </div>
     </section>
 
     <!-- Newsletter Section -->
     <section class="newsletter-section">
         <div class="container">
-            <h2>📬 Get Updates</h2>
-            <p>Subscribe to get notified when new papers are added</p>
-            <form id="newsletterForm" class="newsletter-form">
+            <button class="section-toggle" onclick="toggleSection('newsletterContent')">
+                <span>📬 Get Updates</span>
+                <span class="toggle-icon">▼</span>
+            </button>
+            <div id="newsletterContent">
+                <p>Subscribe to get notified when new papers are added</p>
+                <form id="newsletterForm" class="newsletter-form">
                 <input 
                     type="email" 
                     id="newsletterEmail" 
@@ -356,6 +379,7 @@
                 >
                 <button type="submit" class="btn-primary">Subscribe</button>
             </form>
+            </div>
         </div>
     </section>
 

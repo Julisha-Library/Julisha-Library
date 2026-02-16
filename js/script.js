@@ -349,7 +349,7 @@ function renderPapers(papers) {
  */
 function renderFeatured() {
     const featuredPapers = papersData.filter(p => p.featured).slice(0, 3);
-    const featuredSection = document.getElementById('featuredGrid');
+    const featuredSection = document.getElementById('featuredContent');
     
     if (featuredSection) {
         featuredSection.innerHTML = featuredPapers.map(paper => `
@@ -509,6 +509,15 @@ function toggleFilter(filterId) {
     filterToggle.classList.toggle('active');
 }
 
+// Section Toggle Function
+function toggleSection(contentId) {
+    const content = document.getElementById(contentId);
+    const toggle = event.currentTarget;
+    
+    content.classList.toggle('show');
+    toggle.classList.toggle('collapsed');
+}
+
 // Search suggestions
 function showSearchSuggestions() {
     const searchTerm = document.getElementById('searchInput').value.toLowerCase();
@@ -566,7 +575,7 @@ function renderTrending() {
         .sort((a, b) => b.downloads - a.downloads)
         .slice(0, 3);
     
-    const trendingGrid = document.getElementById('trendingGrid');
+    const trendingGrid = document.getElementById('trendingContent');
     if (trendingGrid) {
         trendingGrid.innerHTML = trendingPapers.map(paper => `
             <div class="paper-card">
