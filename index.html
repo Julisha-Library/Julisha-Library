@@ -16,9 +16,11 @@
             </div>
             <nav class="nav-links">
                 <a href="#home" class="active">Home</a>
+                <a href="#featured">Featured</a>
                 <a href="#papers">Papers</a>
                 <a href="#subjects">Subjects</a>
                 <a href="#about">About</a>
+                <button class="dark-mode-btn" onclick="toggleDarkMode()" title="Toggle Dark Mode">🌙</button>
             </nav>
         </div>
     </header>
@@ -29,6 +31,16 @@
             <h1>Welcome to Julisha Library</h1>
             <p>Your free resource for revision papers and study materials</p>
             <button class="btn-primary" onclick="document.getElementById('papers').scrollIntoView({behavior: 'smooth'})">Browse Papers</button>
+        </div>
+    </section>
+
+    <!-- Featured Papers Section -->
+    <section class="featured-section" id="featured">
+        <div class="container">
+            <h2>⭐ Featured Papers</h2>
+            <div class="papers-grid" id="featuredGrid">
+                <!-- Featured papers will be loaded here -->
+            </div>
         </div>
     </section>
 
@@ -45,6 +57,27 @@
                 >
                 <button onclick="filterPapers()" class="search-btn">🔍 Search</button>
             </div>
+            
+            <div class="sort-options">
+                <span>Sort by:</span>
+                <button class="sort-btn" onclick="sortByDownloads()">📥 Most Downloaded</button>
+                <button class="sort-btn" onclick="sortByRating()">⭐ Highest Rated</button>
+            </div>
+
+            <h3 style="margin-top: 2rem; margin-bottom: 1rem;">Filter by Grade/Form</h3>
+            <div class="level-filters">
+                <button class="level-tag" onclick="filterByLevel('All')">All</button>
+                <button class="level-tag" onclick="filterByLevel('Grade 9')">Grade 9</button>
+                <button class="level-tag" onclick="filterByLevel('Grade 10')">Grade 10</button>
+                <button class="level-tag" onclick="filterByLevel('Grade 11')">Grade 11</button>
+                <button class="level-tag" onclick="filterByLevel('Grade 12')">Grade 12</button>
+                <button class="level-tag" onclick="filterByLevel('Form 1')">Form 1</button>
+                <button class="level-tag" onclick="filterByLevel('Form 2')">Form 2</button>
+                <button class="level-tag" onclick="filterByLevel('Form 3')">Form 3</button>
+                <button class="level-tag" onclick="filterByLevel('Form 4')">Form 4</button>
+            </div>
+
+            <h3 style="margin-top: 2rem; margin-bottom: 1rem;">Filter by Subject</h3>
             <div class="filter-tags">
                 <button class="tag" onclick="filterBySubject('All')">All</button>
                 <button class="tag" onclick="filterBySubject('Mathematics')">Mathematics</button>
@@ -120,6 +153,23 @@
                     <p>New materials added regularly</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <h2>📬 Get Updates</h2>
+            <p>Subscribe to get notified when new papers are added</p>
+            <form id="newsletterForm" class="newsletter-form">
+                <input 
+                    type="email" 
+                    id="newsletterEmail" 
+                    placeholder="Enter your email..." 
+                    required
+                >
+                <button type="submit" class="btn-primary">Subscribe</button>
+            </form>
         </div>
     </section>
 
