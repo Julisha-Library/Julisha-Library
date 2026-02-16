@@ -200,7 +200,7 @@ For issues, feature requests, or questions:
 
 ## 🌐 Live Demo
 
-Visit the live version at: [Your GitHub Pages URL]
+Visit the live version at: [https://electronicibrary254-sketch.github.io/Julisha-Library/]
 
 ---
 
