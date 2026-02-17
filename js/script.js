@@ -248,7 +248,7 @@ const papersData = [
         rating: 5.0,
         pages: 0,
         difficulty: "Easy",
-        pdfUrl: "papers/biology/Biology - Biology Form 1 - Zeraki Achievers 3.0 - Marking Scheme.pdf",
+        pdfUrl: "papers/biology/Biology%20-%20Biology%20Form%201%20-%20Zeraki%20Achievers%203.0%20-%20Marking%20Scheme.pdf",
         url: "#"
     },
     {
@@ -263,7 +263,7 @@ const papersData = [
         rating: 5.0,
         pages: 0,
         difficulty: "Medium",
-        pdfUrl: "papers/biology/Biology - Biology Form 1 - Zeraki Achievers 3.0 - Question Paper.pdf",
+        pdfUrl: "papers/biology/Biology%20-%20Biology%20Form%201%20-%20Zeraki%20Achievers%203.0%20-%20Question%20Paper.pdf",
         url: "#"
     },
     {
@@ -278,7 +278,7 @@ const papersData = [
         rating: 5.0,
         pages: 0,
         difficulty: "Easy",
-        pdfUrl: "papers/biology/Biology - Biology Form 2 - Zeraki Achievers 3.0 - Marking Scheme.pdf",
+        pdfUrl: "papers/biology/Biology%20-%20Biology%20Form%202%20-%20Zeraki%20Achievers%203.0%20-%20Marking%20Scheme.pdf",
         url: "#"
     },
     {
@@ -293,7 +293,7 @@ const papersData = [
         rating: 5.0,
         pages: 0,
         difficulty: "Easy",
-        pdfUrl: "papers/chemistry/Chemistry - Chemistry Form 1 - Zeraki Achievers 3.0 - Marking Scheme.pdf",
+        pdfUrl: "papers/chemistry/Chemistry%20-%20Chemistry%20Form%201%20-%20Zeraki%20Achievers%203.0%20-%20Marking%20Scheme.pdf",
         url: "#"
     },
     {
@@ -308,7 +308,7 @@ const papersData = [
         rating: 5.0,
         pages: 0,
         difficulty: "Medium",
-        pdfUrl: "papers/chemistry/Chemistry - Chemistry Form 1 - Zeraki Achievers 3.0 - Question Paper.pdf",
+        pdfUrl: "papers/chemistry/Chemistry%20-%20Chemistry%20Form%201%20-%20Zeraki%20Achievers%203.0%20-%20Question%20Paper.pdf",
         url: "#"
     },
     {
@@ -323,7 +323,7 @@ const papersData = [
         rating: 5.0,
         pages: 0,
         difficulty: "Medium",
-        pdfUrl: "papers/chemistry/Chemistry - Chemistry Form 2 - Zeraki Achievers 3.0 - Question Paper.pdf",
+        pdfUrl: "papers/chemistry/Chemistry%20-%20Chemistry%20Form%202%20-%20Zeraki%20Achievers%203.0%20-%20Question%20Paper.pdf",
         url: "#"
     },
     {
@@ -338,7 +338,7 @@ const papersData = [
         rating: 5.0,
         pages: 0,
         difficulty: "Easy",
-        pdfUrl: "papers/english/English - English Form 1 - Zeraki Achievers 3.0 - Marking Scheme.pdf",
+        pdfUrl: "papers/english/English%20-%20English%20Form%201%20-%20Zeraki%20Achievers%203.0%20-%20Marking%20Scheme.pdf",
         url: "#"
     },
     {
@@ -353,7 +353,7 @@ const papersData = [
         rating: 5.0,
         pages: 0,
         difficulty: "Medium",
-        pdfUrl: "papers/english/English - English Form 1 - Zeraki Achievers 3.0 - Question Paper.pdf",
+        pdfUrl: "papers/english/English%20-%20English%20Form%201%20-%20Zeraki%20Achievers%203.0%20-%20Question%20Paper.pdf",
         url: "#"
     },
     {
@@ -368,7 +368,7 @@ const papersData = [
         rating: 5.0,
         pages: 0,
         difficulty: "Medium",
-        pdfUrl: "papers/english/English - English Form 2 - Zeraki Achievers 3.0 - Question Paper.pdf",
+        pdfUrl: "papers/english/English%20-%20English%20Form%202%20-%20Zeraki%20Achievers%203.0%20-%20Question%20Paper.pdf",
         url: "#"
     },
     {
@@ -383,7 +383,7 @@ const papersData = [
         rating: 5.0,
         pages: 0,
         difficulty: "Easy",
-        pdfUrl: "papers/geography/Geography - Geography Form 1 - Zeraki Achievers 3.0 - Marking Scheme.pdf",
+        pdfUrl: "papers/geography/Geography%20-%20Geography%20Form%201%20-%20Zeraki%20Achievers%203.0%20-%20Marking%20Scheme.pdf",
         url: "#"
     },
     {
@@ -398,7 +398,7 @@ const papersData = [
         rating: 5.0,
         pages: 0,
         difficulty: "Medium",
-        pdfUrl: "papers/geography/Geography - Geography Form 1 - Zeraki Achievers 3.0 - Question Paper.pdf",
+        pdfUrl: "papers/geography/Geography%20-%20Geography%20Form%201%20-%20Zeraki%20Achievers%203.0%20-%20Question%20Paper.pdf",
         url: "#"
     },
     {
@@ -413,7 +413,7 @@ const papersData = [
         rating: 5.0,
         pages: 0,
         difficulty: "Easy",
-        pdfUrl: "papers/history/History - History Form 2 - Zeraki Achievers 3.0 - Marking Scheme.pdf",
+        pdfUrl: "papers/history/History%20-%20History%20Form%202%20-%20Zeraki%20Achievers%203.0%20-%20Marking%20Scheme.pdf",
         url: "#"
     },
     {
@@ -428,7 +428,7 @@ const papersData = [
         rating: 5.0,
         pages: 0,
         difficulty: "Medium",
-        pdfUrl: "papers/history/History - History Form 2 - Zeraki Achievers 3.0 - Question Paper.pdf",
+        pdfUrl: "papers/history/History%20-%20History%20Form%202%20-%20Zeraki%20Achievers%203.0%20-%20Question%20Paper.pdf",
         url: "#"
     },
     {
@@ -443,7 +443,7 @@ const papersData = [
         rating: 5.0,
         pages: 0,
         difficulty: "Easy",
-        pdfUrl: "papers/mathematics/Mathematics - Mathematics Form 1 - Zeraki Achievers 3.0 - Marking Scheme.pdf",
+        pdfUrl: "papers/mathematics/Mathematics%20-%20Mathematics%20Form%201%20-%20Zeraki%20Achievers%203.0%20-%20Marking%20Scheme.pdf",
         url: "#"
     },
     {
@@ -458,7 +458,7 @@ const papersData = [
         rating: 5.0,
         pages: 0,
         difficulty: "Easy",
-        pdfUrl: "papers/physics/Physics - Physics Form 1 - Zeraki Achievers 3.0 - Marking Scheme.pdf",
+        pdfUrl: "papers/physics/Physics%20-%20Physics%20Form%201%20-%20Zeraki%20Achievers%203.0%20-%20Marking%20Scheme.pdf",
         url: "#"
     },
     {
@@ -473,7 +473,7 @@ const papersData = [
         rating: 5.0,
         pages: 0,
         difficulty: "Medium",
-        pdfUrl: "papers/physics/Physics - Physics Form 1 - Zeraki Achievers 3.0 - Question Paper.pdf",
+        pdfUrl: "papers/physics/Physics%20-%20Physics%20Form%201%20-%20Zeraki%20Achievers%203.0%20-%20Question%20Paper.pdf",
         url: "#"
     }
 ];
